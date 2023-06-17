@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Employees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>New Employees</h3>
+        <form id="employee-form" action="">
+           <div class="form">
+                <div >
+                    <label for="name">Enter Name:</label>
+                    <br>
+                    <input type="text" id="name" required>
+                </div>
+                <div >
+                    <label for="profession">Enter Profession:</label>
+                    <br>
+                    <input type="text" id="profession" required>
+                </div>
+                <div >
+                    <label for="age">Enter Age:</label>
+                    <br>
+                    <input type="number" id="age" required>
+                </div>
+           </div>
+
+            <div>
+                <button type="submit" id="submit">Add User</button>
+            </div>
+            
+        </form>
+
+        
+    <section id ="employee-container" >
+        <div id="message"></div>
+            <h3>Added Employees</h3>
+            <div id="employee-list">
+                <p id="placeholder">You have 0 Employees</p>
+            </div>
+            
+    </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
